@@ -2,6 +2,7 @@
 // @name          Hide XenRT comments
 // @description   Hide XenRT autofile "seen again" comments in Jira
 // @include       https://jira.uk.xensource.com/*
+// @include       https://issues.citrite.net/*
 // ==/UserScript==
 
 function hide_seen_agains() {
