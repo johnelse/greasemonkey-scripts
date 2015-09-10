@@ -20,6 +20,7 @@ function hide_seen_agains() {
                 .querySelectorAll('p')[0]
                 .innerHTML
                 .lastIndexOf("Seen again on XenRT JobID:") >= 0) {
+          console.log("hiding div " + i);
           divs[i].parentNode.removeChild(divs[i]);
         };
       };
