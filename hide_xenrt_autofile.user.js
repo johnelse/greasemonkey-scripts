@@ -7,7 +7,10 @@
 
 function hide_seen_agains() {
   // First unhide all the comments.
-  document.querySelector("a.collapsed-comments").click();
+  var expandlink = document.querySelector("a.collapsed-comments");
+  if (!(expandlink === null)) {
+    expandlink.click();
+  };
 
   // Then hide the ones we don't want (after waiting a short while for the
   // click() operation to happen).
