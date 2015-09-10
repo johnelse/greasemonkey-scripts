@@ -19,7 +19,7 @@ function hide_seen_agains() {
         if (divs[i]
                 .querySelectorAll('p')[0]
                 .innerHTML
-                .lastIndexOf("Seen again on XenRT JobID:") == 0) {
+                .lastIndexOf("Seen again on XenRT JobID:") >= 0) {
           divs[i].parentNode.removeChild(divs[i]);
         };
       };
