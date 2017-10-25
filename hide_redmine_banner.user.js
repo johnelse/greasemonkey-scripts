@@ -8,7 +8,7 @@ function hide_banner() {
   var divs = document.querySelectorAll("div#maintenance_mode_banner");
 
   for (var i = 0; i < divs.length; i++) {
-    div.style.visibility = 'hidden';
+    divs[i].style.visibility = 'hidden';
   }
 }
 
